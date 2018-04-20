@@ -13,14 +13,12 @@ public class BaseFighterList {
     // Ik maak eem method aan om vechter toe te voegen aan mijn lijst.
     public void createfighters() {
         for (int i = 0; i < 13; i++) {
-            BaseFighter fighter = new BaseFighter(true, 100, 80, 60,false);
+            BaseFighter fighter = new BaseFighter(true, 100, 80, 60, false);
             fighters.add(fighter);
         }
+        // Hier wil ik de hele lijst printen nadat die is ontstaan.
+        for (BaseFighter printOut : fighters)
+            System.out.println(printOut);
     }
-
-
-
-
-
-
 }
+

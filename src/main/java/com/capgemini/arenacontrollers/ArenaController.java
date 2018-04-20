@@ -1,6 +1,8 @@
 package com.capgemini.arenacontrollers;
 
-public class ArenaController {}
+public class ArenaController {
+
+}
 
 
 

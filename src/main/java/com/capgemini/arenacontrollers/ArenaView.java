@@ -2,8 +2,6 @@ package com.capgemini.arenacontrollers;
 
 public class ArenaView {
 
-    public void arenaPrint (ArenaView arenaToPrint) {
-        System.out.println("");
-        System.out.println();
     }
-}
+
+// ToDo: Hier zorgen dat er een view ontstaat van alle events die in de Arena plaatsvinden.
